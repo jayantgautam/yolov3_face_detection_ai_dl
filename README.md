@@ -18,9 +18,13 @@ Real-time inference using OpenCV DNN
 
 # Project Structure
 ├── Open_CV_annotations_for_YOLO.py   # Dataset creation & labeling
+
 ├── Calc_Anchors_kMeans.py            # Anchor box calculation
+
 ├── YOLO_v3.py                        # YOLOv3 model & training
+
 ├── YOLO_v3_ONNX_exp.py               # ONNX export
+
 ├── detect_img.py                     # Inference with OpenCV
 
 # Usage
