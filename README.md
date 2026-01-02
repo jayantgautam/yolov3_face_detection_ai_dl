@@ -48,4 +48,4 @@ Lightweight input size (160×160) optimized for real-time use
 
 # Tech Stack
 
-PyTorch · OpenCV · NumPy · ONNX
+Python . PyTorch · OpenCV · NumPy · ONNX
