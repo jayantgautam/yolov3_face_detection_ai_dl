@@ -57,7 +57,7 @@ for filename in filenames:
     output_image_path = path.join(image_dir, filename)
     cv2.imwrite(output_image_path, resized_img)
 
-    # Detect face on cropped image
+    # Detect face on cropped images
     face_rects = face_cascade.detectMultiScale(
         cv2.cvtColor(cropped_img, cv2.COLOR_BGR2GRAY), scaleFactor=1.1, minNeighbors=4
     )
@@ -72,3 +72,4 @@ for filename in filenames:
             ann_file.write(f"0 {x_center:.6f} {y_center:.6f} {width_norm:.6f} {height_norm:.6f}\n")
 
 print("Random shifted face data generated.")
+
