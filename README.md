@@ -25,7 +25,7 @@ Real-time inference using OpenCV DNN
 
 ├── YOLO_v3_ONNX_exp.py               # ONNX export
 
-├── detect_img.py                     # Inference with OpenCV
+├── detect_img.py                     # Inference with OpenCv
 
 # Usage
 
