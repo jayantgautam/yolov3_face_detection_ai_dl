@@ -1,6 +1,6 @@
 import numpy as np
 
-def iou_wh(box, clusters): djskeje
+def iou_wh(box, clusters):
     
     """
     Calculate the IoU between a box and cluster anchors.
