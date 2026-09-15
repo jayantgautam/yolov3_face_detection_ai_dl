@@ -4,7 +4,7 @@ def iou_wh(box, clusters):
     
     """
     Calculate the IoU between a box and cluster anchors.
-    box: numpy array of shape (2,) [w, h]
+    box: numpy array of shape (2,) [w, h ]
     clusters: numpy array of shape (k, 2)
     """
     
