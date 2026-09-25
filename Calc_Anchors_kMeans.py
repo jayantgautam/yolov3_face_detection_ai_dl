@@ -3,7 +3,7 @@ import numpy as np
 def iou_wh(box, clusters):
     
     """
-    Calculate the IoU between a box and cluster anchors.
+    Calculate the IoU between a box and c luster anchors.
     box: numpy array of shape (2,) [w, h]
     clusters: numpy array of shape (k, 2)
     """
